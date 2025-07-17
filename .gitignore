@@ -1,0 +1,58 @@
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/api
+/main
+
+# Arquivos de teste e debug
+*.test
+*.out
+*.prof
+*.trace
+coverage.out
+coverage.html
+
+# Dependências
+/vendor/
+/go.work
+
+# Arquivos específicos do SQLite
+*.db
+*.db-journal
+martinezterapias.db
+
+# Arquivos de configuração local/ambiente
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos de log
+*.log
+/log/
+/logs/
+
+# Diretório temporário
+/tmp/
+
+# Arquivos específicos da plataforma
+.DS_Store
+Thumbs.db
+
+# Arquivos de CI/CD e dependências
+/node_modules/
+/dist/
+
+# Arquivos de cache
+/.cache/
